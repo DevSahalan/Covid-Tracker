@@ -106,7 +106,7 @@ fetch('https://covid19.mathdro.id/api/countries/usa')
     // const recovered = data.recovered;
     // const deaths = data.deaths;
 
-         console.log("Country : " +  country)
+        console.log("Country : " +  country)
         console.log(`Confirmed : ${data.confirmed.value}`)
         console.log(`Recovered : ${data.recovered.value}`)
         console.log(`Deaths : ${data.deaths.value}`)
